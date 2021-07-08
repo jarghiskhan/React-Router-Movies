@@ -41,7 +41,6 @@ export default function App() {
       />
       {/* <Link to="/movies/:id"></Link> */}
       <div>
-        Replace this Div with your Routes
         <Switch>
         <Route path="/movies/:id">
             <Movie movies={movieList}/>
